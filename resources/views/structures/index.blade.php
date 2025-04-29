@@ -26,8 +26,8 @@
                 }
                 </style>
                 <div class="atas">
-                    <h5 class="">Tutorial Laravel 10 untuk Pemula</h5>
-                    <h6 class=""><a class="link" href="https://santrikoding.com">www.santrikoding.com</a></h6>
+                    <h5 class="">Struktur Pengurus Pondok Pesantren Mathali'ul Anwar</h5>
+                    <h6 class=""><a class="link" href="https://santrikoding.com">www.mathaliulanwar.net</a></h6>
                 </div>
     <div class="container mt-5">
         <div class="row">

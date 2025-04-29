@@ -35,9 +35,38 @@
                                 {{-- <input type="text" class="form-control @error('position') is-invalid @enderror" name="position" value="{{ old('position') }}" placeholder="Masukkan Judul Post"> --}}
                                 <select class="custom-select" @error('position') is-invalid @enderror" name="position" value="{{ old('position') }}">
                                   <option selected>Open this select menu</option>
+                                  <option value="Pengasuh">Pengasuh</option>
+                                  <option value="Dewan Pengasuh">Dewan Pengasuh</option>
+                                  <option value="Dewan Pengasuh">Dewan Pengasuh</option>
+                                  <option value="Dewan Pengasuh">Dewan Pengasuh</option>
+                                  <option value="Penasehat">Penasehat</option>
                                   <option value="Ketua Pondok">Ketua Pondok</option>
-                                  <option value="Sekretaris">Sekretaris</option>
-                                  <option value="Bendahara">Bendahara</option>
+                                  <option value="Sekretaris I">Sekretaris I </option>
+                                  <option value="Sekretaris II">Sekretaris II</option>
+                                  <option value="Bendahara I">Bendahara I</option>
+                                  <option value="Bendahara II">Bendahara II</option>
+                                  <option value="Pendidikan I">Pendidikan I</option>
+                                  <option value="Pendidikan II">Pendidikan II</option>
+                                  <option value="Pendidikan III">Pendidikan III</option>
+                                  <option value="Pendidikan IV">Pendidikan IV</option>
+                                  <option value="Keamanan I">Keamanan I</option>
+                                  <option value="Keamanan II">Keamanan II</option>
+                                  <option value="Keamanan III">Keamanan III</option>
+                                  <option value="Keamanan III">Keamanan IV</option>
+                                  <option value="Kesehatan I">Kesehatan I</option>
+                                  <option value="Kesehatan II">Kesehatan II</option>
+                                  <option value="Kesehatan III">Kesehatan III</option>
+                                  <option value="Kesejahteraan I">Kesejahteraan I</option>
+                                  <option value="Kesejahteraan II">Kesejahteraan II</option>
+                                  <option value="Kesejahteraan III">Kesejahteraan III</option>
+                                  <option value="Kebersihan I">Kebersihan I</option>
+                                  <option value="Kebersihan II">Kebersihan II</option>
+                                  <option value="Kebersihan III">Kebersihan III</option>
+                                  <option value="Kebersihan IV">Kebersihan IV</option>
+                                  <option value="Dhalem">Dhalem </option>
+                                  <option value="Dhalem">Dhalem </option>
+                                  <option value="Dhalem">Dhalem </option>
+                                  <option value="Dhalem">Dhalem </option>
                                 </select>
                                 <!-- error message untuk title -->
                                 @error('position')
