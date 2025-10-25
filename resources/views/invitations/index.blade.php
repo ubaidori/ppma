@@ -4,10 +4,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="google" content="notranslate" />
-    <title>Undangan Pernikahan {{ $inv->bride }} & {{ $inv->groom }}</title>
+    <title>Undangan Pernikahan</title>
     <meta
       property="og:image"
-      content="{{ asset('storage/wedding/p4.jpg') }}"
+      content="{{ asset('storage/wedding/dimas2.jpg') }}"
     />
     <!-- cdn jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -20,7 +20,7 @@
     />
     <link
       rel="icon"
-      href="{{ asset('storage/wedding/p4.jpg') }}"
+      href="{{ asset('storage/wedding/dimas2.jpg') }}"
     />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -82,7 +82,6 @@
 
       /* 1 */
       .top {
-        /* background: url("{{ asset('storage/wedding/l3.jpg') }}") */
         background: url("https://img.freepik.com/premium-photo/concept-wedding-accessories-with-wedding-rings-white-wooden-background_185193-69932.jpg?w=2000")
           no-repeat center center;
         background-size: cover;
@@ -357,9 +356,9 @@
             padding-top: 200px;
           "
         >
-          <h1 style="font-size: 60px">{{ $inv->bride }} &amp; {{ $inv->groom }}</h1>
+          <h1 style="font-size: 60px">Fitri & Dimas</h1>
           <h2 style="font-size: 30px">Kepada Yth, Bapak/Ibu/Saudara/i</h2>
-          <h2 style="font-size: 25px">{{ $inv->slug }}</h2>
+          <h2 style="font-size: 25px">Tamu</h2>
           <p>Silakan klik tombol di bawah untuk membuka undangan Pernikahan.</p>
           <button id="bukaUndangan" class="btn btn-secondary">
             Buka Undangan
@@ -470,13 +469,13 @@
               <div class="card text-center shadow-lg bg-body-tertiary rounded">
                 <a
                   data-fancybox="gallery"
-                  href="{{ asset('storage/wedding/p3.jpg') }}"
+                  href="{{ asset('storage/wedding/dimas.jpg') }}"
                 >
                   <img
                     id="foto-profil-1"
                     style="display: none"
                     class="card-img-top img-fluid p-3 pb-5"
-                    src="{{ asset('storage/wedding/p4.jpg') }}"
+                    src="{{ asset('storage/wedding/dimas.jpg') }}"
                     alt="..."
                   />
                 </a>
@@ -575,13 +574,13 @@
               >
                 <a
                   data-fancybox="gallery"
-                  href="{{ asset('storage/wedding/p1.jpg') }}"
+                  href="{{ asset('storage/wedding/dimas.jpg') }}"
                 >
                   <img
                     id="foto-profil-2"
                     style="display: none"
                     class="card-img-top img-fluid p-3 pb-5"
-                    src="{{ asset('storage/wedding/p1.jpg') }}"
+                    src="{{ asset('storage/wedding/dimas.jpg') }}"
                     alt="... "
                   />
                 </a>
@@ -863,13 +862,13 @@
               <div class="col m-0 p-1">
                 <a
                   data-fancybox="gallery"
-                  href="{{ asset('storage/wedding/p2.jpg') }}"
+                  href="{{ asset('storage/wedding/dimas2.jpg') }}"
                 >
                   <img
                     id=""
                     style=""
                     class="img-fluid"
-                    src="{{ asset('storage/wedding/p2.jpg') }}"
+                    src="{{ asset('storage/wedding/dimas2.jpg') }}"
                     alt="... "
                   />
                 </a>
@@ -877,13 +876,13 @@
               <div class="col m-0 p-1">
                 <a
                   data-fancybox="gallery"
-                  href="{{ asset('storage/wedding/p3.jpg') }}"
+                  href="{{ asset('storage/wedding/dimas2.jpg') }}"
                 >
                   <img
                     id=""
                     style=""
                     class="img-fluid"
-                    src="{{ asset('storage/wedding/p3.jpg') }}"
+                    src="{{ asset('storage/wedding/dimas2.jpg') }}"
                     alt="... "
                   />
                 </a>
@@ -891,13 +890,13 @@
               <div class="col m-0 p-1">
                 <a
                   data-fancybox="gallery"
-                  href="{{ asset('storage/wedding/p4.jpg') }}"
+                  href="{{ asset('storage/wedding/dimas2.jpg') }}"
                 >
                   <img
                     id=""
                     style=""
                     class="img-fluid"
-                    src="{{ asset('storage/wedding/p4.jpg') }}"
+                    src="{{ asset('storage/wedding/dimas2.jpg') }}"
                     alt="... "
                   />
                 </a>
@@ -905,13 +904,13 @@
               <div class="col m-0 p-1">
                 <a
                   data-fancybox="gallery"
-                  href="{{ asset('storage/wedding/p1.jpg') }}"
+                  href="{{ asset('storage/wedding/dimas2.jpg') }}"
                 >
                   <img
                     id=""
                     style=""
                     class="img-fluid"
-                    src="{{ asset('storage/wedding/p1.jpg') }}"
+                    src="{{ asset('storage/wedding/dimas2.jpg') }}"
                     alt="... "
                   />
                 </a>

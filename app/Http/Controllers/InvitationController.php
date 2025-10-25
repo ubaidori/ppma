@@ -10,4 +10,9 @@ class InvitationController extends Controller {
         $inv = Invitation::where('slug', $slug)->firstOrFail();
         return view('invitations.show', compact('inv'));
     }
+
+    public function index() {
+        $invitations = Invitation::all();
+        return view('invitations.index', compact('invitations'));
+    }
 }
