@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="google" content="notranslate" />
-    <title>The Wedding of Fitri & Dimas</title>
+    <title>{{ $inv->bride }} & {{ $inv->groom }} — Undangan</title>
     <meta
       property="og:image"
       content="{{ asset('storage/wedding/dimas2.jpg') }}"
@@ -356,9 +356,9 @@
             padding-top: 200px;
           "
         >
-          <h1 style="font-size: 60px">Fitri & Dimas</h1>
+          <h1 style="font-size: 60px">{{ $inv->bride }} &amp; {{ $inv->groom }}</h1>
           <h2 style="font-size: 30px">Kepada Yth, Bapak/Ibu/Saudara/i</h2>
-          <h2 style="font-size: 25px">buana safitri</h2>
+          <h2 style="font-size: 25px">{{ $inv->slug }}</h2>
           <p>Silakan klik tombol di bawah untuk membuka undangan Pernikahan.</p>
           <button id="bukaUndangan" class="btn btn-secondary">
             Buka Undangan
