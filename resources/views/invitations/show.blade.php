@@ -317,7 +317,7 @@
     <div id="card" class="card fixed-top">
       <audio id="sound" preload="auto">
         <source
-          src="/storage/song/urlThe 1975 - About You"
+          src="/storage/song/The 1975 - About You.mp3"
           type="audio/mp3"
           preload="auto"
         />
@@ -740,7 +740,7 @@
                         - - -
                       </h2>
                       <p style="font-size: 17px" class="m-0 p-0">
-                        Pukul 19:30 WIB - 22:00 WIB
+                        Pukul 10:00 WIB - 12:00 WIB
                       </p>
                       <h2 style="font-size: 25px" class="m-0 p-0">
                         di rumah mempelai wanita
@@ -935,7 +935,7 @@
         <div
           class="text-center d-flex justify-content-center pt-3 m-0 bg-light"
         >
-          <div class="d-flex m-0 p-0 row">
+          {{-- <div class="d-flex m-0 p-0 row">
             <div class="col-md-12 m-0 p-0"></div>
             <div class="col-md-12">
               <a
@@ -950,7 +950,7 @@
                 aria-hidden="true"
                 style="color: inherit; text-decoration: none"
               ></a>
-              {{-- <style>
+              <style>
                 .shopee-icon {
                   width: 300px;
                   height: 300px;
@@ -967,8 +967,8 @@
                     opacity: 0;
                   }
                 }
-              </style> --}}
-              <!-- <a
+              </style>
+              <a
                 href="/our-shopee"
                 class="shopee-icon"
                 aria-hidden="true"
@@ -983,15 +983,15 @@
                     margin: 0;
                   "
                 />
-              </a> -->
+              </a>
             </div>
-          </div>
-          <div class="d-flex m-0 p-0 translate-middle-x" style="height: 50px">
+          </div> --}}
+          {{-- <div class="d-flex m-0 p-0 translate-middle-x" style="height: 50px">
             <div class="vr m-0 p-0"></div>
-          </div>
+          </div> --}}
           <div class="d-flex row m-0 p-0">
             <div class="col-md-12 m-0 p-0"></div>
-            <p class="col-md-12 m-0 p-0">
+            <p class="col-md-12 m-0 p-0" text-align="center" style="font-size: 12px">
               Created By digitalsolutions.co.id <br />
               All Rights Reserved
             </p>
@@ -1034,7 +1034,7 @@
           solemnizationmydate,
           solemnizationindonesiadate,
           solemnizationarrDate,
-        ] = getMyWeddingDate("2024-04-14");
+        ] = getMyWeddingDate("2025-12-10");
         $("#day-wedding-1").text(solemnizationarrDate[0]);
         $("#date-wedding-2-1").text(solemnizationarrDate[1]);
 
