@@ -792,7 +792,7 @@
                         - - -
                       </h2>
                       <p style="font-size: 17px" class="m-0 p-0">
-                        Pukul 14:00 WIB - 16:00 WIB
+                        Pukul 14:00 WIB - Selesai
                       </p>
                       <h2 style="font-size: 25px" class="m-0 p-0">
                         di rumah mempelai wanita
@@ -924,7 +924,7 @@
 
       <div class="m-0 p-0">
         <div class="text-center bg-light m-0 py-5" id="special-thanks">
-          <h2 class="m-0 p-0" style="font-size: 20px">Terimakasih</h2>
+          <h2 class="m-0 p-0" style="font-size: 20px">Terima Kasih</h2>
           <h1 style="font-size: 60px">Fitri & Dimas</h1>
           <h2 style="font-size: 20px">Keluarga Besar</h2>
           <p style="font-size: 15px">Masek & Masjuniya</p>
